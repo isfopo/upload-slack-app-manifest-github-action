@@ -19,8 +19,8 @@ The path of the manifest file to upload. Must be JSON. Default is `manifest.json
 ## Example usage
 
 ```yml
-uses: isfopo/upload-slack-app-manifest-github-action@master
+uses: isfopo/upload-slack-app-manifest-github-action@main
 with:
   token: <your-bot-token>
-  add_id: <your-app-id>
+  app_id: <your-app-id>
 ```
