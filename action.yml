@@ -1,6 +1,6 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Upload Slack App Manifest Github Action'
+description: 'A github action to upload a local slack app manifest file. '
+author: 'isfopo'
 inputs:
   milliseconds: # change this
     required: true
