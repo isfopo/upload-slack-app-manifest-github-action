@@ -1,4 +1,4 @@
-# Create Version File Action
+# Upload Slack App Manifest Github Action
 
 A github action to upload a local slack app manifest file.
 
@@ -19,8 +19,8 @@ The path of the manifest file to upload. Must be JSON. Default is `manifest.json
 ## Example usage
 
 ```yml
-uses: isfopo/create-version-file@master
+uses: isfopo/upload-slack-app-manifest-github-action@master
 with:
-  environment: 'dev'
-  version: '1.0'
+  token: <your-bot-token>
+  add_id: <your-app-id>
 ```
