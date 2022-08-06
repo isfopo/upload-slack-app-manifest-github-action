@@ -2,10 +2,13 @@ name: 'Upload Slack App Manifest Github Action'
 description: 'A github action to upload a local slack app manifest file. '
 author: 'isfopo'
 inputs:
-  milliseconds: # change this
+  token:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'The bot token of your Slack app'
+  manifest_path:
+    required: false
+    description: 'The path of the manifest file to upload. Must be JSON.'
+    default: "manifest.json"
 runs:
   using: 'node16'
   main: 'dist/index.js'
