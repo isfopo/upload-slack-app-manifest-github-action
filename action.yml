@@ -1,6 +1,7 @@
 name: 'Upload Slack App Manifest Github Action'
 description: 'A github action to upload a local slack app manifest file.'
 author: 'isfopo'
+icon: upload
 inputs:
   token:
     required: true
